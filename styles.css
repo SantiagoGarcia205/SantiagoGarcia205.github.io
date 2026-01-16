@@ -261,8 +261,8 @@ section {
     max-width: 900px;
     margin: 0 auto;
     display: flex;
-    gap: 2.5rem;
-    align-items: flex-start;
+    gap: 3rem;
+    align-items: center;
 }
 
 .about-image {
@@ -270,14 +270,14 @@ section {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 12px;
+    width: 220px;
+    height: 220px;
+    max-width: 220px;
+    max-height: 220px;
+    border-radius: 16px;
     object-fit: cover;
-    box-shadow: var(--shadow);
-    border: 3px solid white;
+    box-shadow: var(--shadow-lg);
+    border: 4px solid white;
     transition: transform 0.3s ease;
     display: block;
 }
@@ -604,14 +604,14 @@ section {
     .about-content {
         flex-direction: column;
         align-items: center;
-        gap: 1.5rem;
+        gap: 2rem;
     }
     
     .profile-img {
-        width: 120px;
-        height: 120px;
-        max-width: 120px;
-        max-height: 120px;
+        width: 160px;
+        height: 160px;
+        max-width: 160px;
+        max-height: 160px;
     }
     
     .skills-grid {
@@ -649,3 +649,4 @@ section {
         text-align: center;
     }
 }
+
