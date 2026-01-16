@@ -258,8 +258,31 @@ section {
 }
 
 .about-content {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: var(--shadow-lg);
+    border: 5px solid white;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
 }
 
 .about-text p {
@@ -573,6 +596,16 @@ section {
         font-size: 2rem;
     }
     
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .profile-img {
+        width: 220px;
+        height: 220px;
+    }
+    
     .skills-grid {
         grid-template-columns: 1fr;
     }
@@ -608,3 +641,4 @@ section {
         text-align: center;
     }
 }
+
