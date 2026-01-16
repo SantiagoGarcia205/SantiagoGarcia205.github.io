@@ -261,9 +261,9 @@ section {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 3rem;
-    align-items: center;
+    grid-template-columns: 200px 1fr;
+    gap: 2.5rem;
+    align-items: start;
 }
 
 .about-image {
@@ -272,12 +272,12 @@ section {
 }
 
 .profile-img {
-    width: 280px;
-    height: 280px;
-    border-radius: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
     object-fit: cover;
-    box-shadow: var(--shadow-lg);
-    border: 5px solid white;
+    box-shadow: var(--shadow);
+    border: 3px solid white;
     transition: transform 0.3s ease;
 }
 
@@ -598,12 +598,12 @@ section {
     
     .about-content {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
     }
     
     .profile-img {
-        width: 220px;
-        height: 220px;
+        width: 150px;
+        height: 150px;
     }
     
     .skills-grid {
